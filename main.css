@@ -953,7 +953,7 @@ div.wpforms-container.one-line:after {
     .title-area p.site-title a {
       color: #424242;
       text-decoration: none;
-      background-image: url(http://127.0.0.1/wordpress/mayek/wp-content/uploads/2021/01/1-2-e1610021824320.png);
+      background-image: url(1-2-e1610021824320.png);
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center center;
@@ -1664,7 +1664,7 @@ body {
   .title-area {
     width: 100px; } }
 .inner-container3 {
-  background-image: url("http://127.0.0.1/wordpress/mayek/wp-content/uploads/2020/12/349d8c-newloadingscreen.png");
+  background-image: url("349d8c-newloadingscreen.png");
   background-size: cover; }
 
 .inner-container2 {
