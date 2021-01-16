@@ -1,4 +1,23 @@
+html {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
 
+body {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.site-container {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
 /**
  * Brand Color
  *
