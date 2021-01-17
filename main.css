@@ -1688,6 +1688,10 @@ overflow-x: hidden;
 	background : #02563e;
 }
 
+.outer-container1 {
+	background : #02563e;
+}
+
 .inner-container4 {
 	background : #02563e;
 }
@@ -1807,7 +1811,6 @@ font-size: 30px;
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background: white;
 }
 .outer-container1{
 	min-height: 0;
