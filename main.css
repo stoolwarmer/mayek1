@@ -1651,6 +1651,7 @@ div.wpforms-container.one-line:after {
         float: right; } }
 
 
+
 body{
 overflow-x: hidden;
 }
@@ -1673,7 +1674,7 @@ overflow-x: hidden;
 
 @media screen and (max-width: 767px) {
 	.title-area{
-	width: 100px;
+	width: 80px;
 	}
 }
 
@@ -1687,9 +1688,8 @@ overflow-x: hidden;
 .inner-container2 {
 	background : #02563e;
 }
-
-.outer-container1 {
-	background : #02563e;
+.inner-container8 {
+  background : #02563e;
 }
 
 .inner-container4 {
@@ -1716,7 +1716,6 @@ img.hero-img {
 
 .vid-container{
 	position: absolute;
-	height: 100%;
 }
 
 
@@ -1754,7 +1753,7 @@ font-size: 30px;
     }
 
 
-.inner-container1, .inner-container2, .inner-container3, .inner-container4,.inner-container5,.inner-container6,.inner-container7  {
+.inner-container1, .inner-container2, .inner-container3, .inner-container4,.inner-container5,.inner-container6,.inner-container7,.inner-container8  {
   position: sticky;
   top: 0;
   height: 100vh;
@@ -1762,7 +1761,7 @@ font-size: 30px;
   overflow: hidden;
   }
 
-.scroll-container1, .scroll-container2, .scroll-container3, .scroll-container4, .scroll-container5, .scroll-container6, .scroll-container7 {
+.scroll-container1, .scroll-container2, .scroll-container3, .scroll-container4, .scroll-container5, .scroll-container6, .scroll-container7, .scroll-container8 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1807,13 +1806,11 @@ font-size: 30px;
   height: 100%;
 }*/
 
-.outer-container1, .outer-container2, .outer-container3,.outer-container4,.outer-container5,.outer-container6,.outer-container7 {
+.outer-container1, .outer-container2, .outer-container3,.outer-container4,.outer-container5,.outer-container6,.outer-container7, .outer-container8 {
   position: relative;
   width: 100%;
   min-height: 100vh;
-}
-.outer-container1{
-	min-height: 0;
+  background: white;
 }
 
 .col-1, .col-2, .col-3, .col-4, .col-5{
@@ -1826,6 +1823,11 @@ font-size: 30px;
 	height: 100%;
 	position: relative;
 	border-right: 1px solid white;
+
+}
+
+.colsec5:last-child{
+  border: none;
 
 }
 
@@ -1850,7 +1852,6 @@ font-size: 30px;
 	color: white;
 	position: relative;
 	font-weight: bold;
-	margin-top: 80px;
 }
 
 @media screen and (max-width: 767px){
@@ -1864,6 +1865,8 @@ font-size: 30px;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .scroll {
@@ -1914,6 +1917,23 @@ content: "";
 
 .scroll.offup::before{
 visibility: hidden;
+}
+
+@media screen and (max-width: 768px) {
+.scroll{
+  font-size: 10px;
+}
+.scroll::after{
+  top: 1.5px;
+  width: 12px;
+  height: 12px;
+}
+.scroll::before{
+  top: 1.5px;
+  left: -16px;
+  width: 12px;
+  height: 12px;
+}
 }
 
 
@@ -1996,8 +2016,6 @@ canvas{
 
 .text-container{
     position: absolute;
-    
-    top: 40%;
     z-index: 2;
     display: flex;
     flex-flow: row nowrap;
@@ -2016,6 +2034,9 @@ canvas{
     height: 100%;
 	border-right:1px solid white;
 	overflow: hidden;
+}
+.col-5 .box-container{
+    border: none;
 }
 
 .text-sec3, .text-sec5{
@@ -2039,7 +2060,6 @@ font-size: 250px;
 z-index: 1;
 }
 
-
 .tcon1, .tcon2{
 position: relative;
     width: 100%;
@@ -2048,7 +2068,6 @@ position: relative;
 
    .cards{
    position: relative;
-    height: 300px;
     width: 500px;
     color: white;
     margin-right: 75px;
@@ -2061,13 +2080,20 @@ position: relative;
  width: 20%;
  height: 100%;
  border-right: 1px solid white;
- } 
+ }
+
+ .cols:last-child{
+ border: none;
+ }  
 
  .cols-mob{
  width: 25%;
  height: 100%;
  border-right: 1px solid white;
- } 
+ }
+ .cols-mob:last-child{
+ border: none;
+ }  
 
  .cols-mob:nth-child(3){
  width: 50% !important;
@@ -2138,7 +2164,19 @@ position: relative;
 .cols, .cols-mob{
     display: flex;
     align-items: center;
-    justify-content: center;
+    }
+
+    .cols:nth-child(3){
+    justify-content: flex-end;
+    }
+    .cols:nth-child(5){
+    justify-content: start;
+    }
+     .cols-mob:nth-child(2){
+    justify-content: flex-end;
+    }
+    .cols-mob:last-child{
+    justify-content: start;
     }
 
 .section5 .text-sec3{
@@ -2197,10 +2235,11 @@ position: relative;
 }
 .text-sec7-container{
 	position: absolute;
-	width: 100%;
-	height:100%;
 	display: flex;
 	flex-direction: column;
+  height: 100%;
+    width: 100%;
+   justify-content: center;
 }
 
 .text-sec7{
@@ -2235,6 +2274,14 @@ img{
 	color: white;
 }
 
+.cols-container{
+position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    }
 
 
 /*# sourceMappingURL=main.css.map */
