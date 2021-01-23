@@ -1678,7 +1678,9 @@ overflow-x: hidden;
 	}
 }
 
-
+.outer-container1 {
+	background : #02563e;
+}
 .inner-container3 {
 	background-image: url('Untitled-design-1x-scaled.jpg');
 	background-size: cover;
