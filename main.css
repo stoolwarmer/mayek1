@@ -1688,25 +1688,25 @@ overflow-x: hidden;
 }
 
 .inner-container2 {
-	background : #02563e;
+	background : #cfd1cf;
 }
 .inner-container8 {
-  background : #02563e;
+  background : #cfd1cf;
 }
 
 .inner-container4 {
-	background : #02563e;
+	background : #ffffff;
 }
 .inner-container7 {
-	background : #eee504;
+	background : #cfd1cf;
 }
 
 .inner-container6 {
-	background : #00734a;
+	background : #ffffff;
 }
 
 .inner-container5 {
-	background : #eee504;
+	background : #cfd1cf;
 }
 
 
@@ -1834,9 +1834,13 @@ font-size: 30px;
 
 .s5col-1, .s5col-2, .s5col-3, .s5col-4, .s5col-5{
 	width: 100%;
-	background: #02563e;
+	background: #ffffff;
+	border-right: 1px solid #cfd1cf;
 	position: absolute;
 	bottom: 0;
+}
+.s5col-5{
+	border:none !important;
 }
 
 .section7 .col-1, .section7 .col-2, .section7 .col-3, .section7 .col-4, .section7 .col-5{
@@ -2040,6 +2044,10 @@ canvas{
     border: none;
 }
 
+.text-sec3{
+	opacity: .8;
+}
+
 .text-sec3, .text-sec5{
 	position: absolute;
     /*width: 100%;*/
@@ -2059,6 +2067,7 @@ justify-content: center;
 align-items: unset;
 font-size: 250px;
 z-index: 1;
+color: #cfd1cf;
 }
 
 .tcon1, .tcon2{
@@ -2188,7 +2197,7 @@ position: relative;
 .s6cols{
 	width: 60%;
 	height: 100%;
-	border-right:1px solid white;
+	border-right:1px solid #cfd1cf;
 	
 }
 
@@ -2203,7 +2212,7 @@ position: relative;
 }
 
 .texts6 {
-	color: white;
+	color: #cfd1cf;
 	font-size: 100px;
 	font-weight: bold;
 	position: relative;
@@ -2220,7 +2229,7 @@ position: relative;
   }
 
 .text-s6col2{
-	color: white;
+	color: #cfd1cf;
 	font-size: 40px;
 	font-weight: bold;
 	display: flex;
