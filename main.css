@@ -2048,7 +2048,7 @@ canvas{
 	opacity: .8;
 }
 
-.text-sec3, .text-sec5{
+.text-sec3, .text-sec5, .text-sec4{
 	position: absolute;
     /*width: 100%;*/
     white-space: nowrap;
@@ -2172,7 +2172,8 @@ position: relative;
 }
 
 .cols, .cols-mob{
-    display: flex;
+    /*display: flex;*/
+	display: none;
     align-items: center;
     }
 
